@@ -16,7 +16,7 @@ from .layers import (
       TransfromerBlock,
       Upsample,Parallel,Identity
   )
-from .t5 import get_encoded_dim
+from .encode import get_encoded_dim
 
 class Unet(nn.Module):
 
