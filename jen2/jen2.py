@@ -16,7 +16,7 @@ from .unet import Unet
 from .helpers import cast_tuple, default, resize_image_to, normalize_neg_one_to_one, \
     unnormalize_zero_to_one, identity, exists, module_device, right_pad_dims_to, maybe, eval_decorator, null_context
 from .encode import t5_encode_text, get_encoded_dim
-from .Jen_diffusion import GaussianDiffusion
+from .diffusion import GaussianDiffusion
 
 
 
